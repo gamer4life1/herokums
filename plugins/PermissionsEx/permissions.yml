@@ -55,7 +55,7 @@ groups:
   Moderator:
     options:
       default: false
-      prefix: '&f[&e&lOWNER&f] '
+      prefix: '&f[&e&lADMIN&f] '
     permissions:
     - essentials.ban.*
     - essentials.broadcast
@@ -111,6 +111,8 @@ groups:
       default: false
 users:
   59b0f11a-2b42-4ab8-8b98-9d7e3e61b7d3:
+    permissions:
+      - '*.*'
     group:
     - Owner
     options:
