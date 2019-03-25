@@ -77,6 +77,8 @@ groups:
     - essentials.unban.notify
     inheritance:
     - donator
+
+
   Owner:
     permissions:
     - '*'
@@ -107,12 +109,15 @@ groups:
     inheritance:
     - moderator
     options:
-      prefix: '&f[&e&lOWNER&f] '
+      prefix: '&f[&e&kOWNER&r&f] '
       default: false
 users:
   59b0f11a-2b42-4ab8-8b98-9d7e3e61b7d3:
     permissions:
       - '*.*'
+      - sv.keepfly
+      - sv.see
+      - commands.*
     group:
     - Owner
     options:
