@@ -106,6 +106,7 @@ groups:
     - sv.keepfly
     - sv.see
     - sv.notoggle
+    - petmaster.*
     inheritance:
     - moderator
     options:
@@ -118,6 +119,7 @@ users:
       - sv.keepfly
       - sv.see
       - commands.*
+      - petmaster.*
     group:
     - Owner
     options:
